@@ -21,6 +21,7 @@ var cards = [
     }
     
 ];
+
 var cardsInPlay = [];
 
 var checkForMatch = function() {
@@ -32,7 +33,6 @@ var checkForMatch = function() {
 }
 
 var flipCard = function(cardId) {
-    
     console.log("User flipped " + cards[cardId].rank);  
     console.log(cards[cardId].cardImage);
     console.log(cards[cardId].suit);
